@@ -1,0 +1,30 @@
+<html>
+<script type="text/javascript">
+    function show_pic() {
+        //alert('hi');
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        c1_elem.style.display = 'none';
+        c2_elem.style.display = 'block';
+    }
+    function show_text() {
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        c1_elem.style.display = 'block';
+        c2_elem.style.display = 'none';
+    }
+</script>
+<body>
+<table width="100%" border="1">
+<tr>
+<td onclick="show_text()"> text</td>
+<td onclick="show_pic()"> pic</td>
+</tr>
+<tr>
+<td colspan="2"><div id="c1"> Пупкин</div>
+<div id="c2"> <img src="map.jpg" width="700" alt="ji" /></div>
+</td>
+</tr>
+</table>
+</body>
+</html>

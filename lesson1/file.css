@@ -1,0 +1,9 @@
+body {
+background-color: #3279A0;}
+.quiz {
+border: double black;
+background: rgba(112, 179, 112, 0.38); 
+margin: auto;
+padding: 2px;
+width: 25%;
+}

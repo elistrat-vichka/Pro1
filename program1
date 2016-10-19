@@ -1,0 +1,28 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Вычисление функции y = f(x)");
+        double y;
+        Console.WriteLine("Ввод x: ");
+        double x = Double.Parse(Console.ReadLine());
+
+        if ((x < -1) || (x >= 1))
+        {
+            y = 0;
+        }
+        else
+        {
+            if ((x >= 0) && (x < 1))
+                y = x - 1;
+            else
+                y = x + 1;
+        }
+
+        Console.WriteLine("x = " + x);
+        Console.WriteLine("y = " + y);
+        Console.ReadLine();
+    }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg height="800" width="1000">
+
+	<defs>
+    		<linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+      		  <stop offset="0%" style="stop-color:#7ca4a9;stop-opacity:1" />
+      		  <stop offset="80%" style="stop-color:#051a23;stop-opacity:1" />
+    		</linearGradient>
+		<filter id="f1" x="0" y="0">
+      		  <feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+    		</filter>
+  	</defs>
+  	<rect x="-10" y="485" width="1010" height="330" fill = "#2f2c10" filter="url(#f1)"/>
+  	<rect x="0" y="0" width="1000" height="500" fill = "url(#grad1)"/>
+	<polyline points="0,700 40,400 60,500 80,400 120,500 200,400"
+  	style="fill:none;stroke:#19170e;stroke-width:3">
+		<animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="100"
+                          to="50"
+                          dur="5s"
+                          repeatCount="indefinite"/>
+	</polygon>
+</svg> 
+ 
+</body>
+</html>

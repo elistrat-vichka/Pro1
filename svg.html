@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Field</title>
+<style>
+</style>
+</head>
+<body>
+<svg height="600" width="1000">
+
+
+	<defs>
+  <linearGradient id="grad1" x1="80%" y1="100%">
+          <stop offset="0%" stop-color="#040c35">
+            <animate attributeName="stop-color" values="#070f3e;#303b71;#bd6482;#edaac1;#86b9e0;#9ed0f7;#a2cef2;#b5d4e2;#87b2c6;#d1aca1;#c4645e;#af6e9c;#a3467a;#3a4682;#303b71;#070f3e;" dur="60s" repeatCount="indefinite" />
+          </stop>
+          <stop offset="100%" stop-color="#040c35">
+            <animate attributeName="stop-color" values="#05091f;#040c35;      #4a293e;#722f54;#3076ad;#357bb2;#3172a5;#539cd6;#59a8cc;    #7b66a0;#824b5e;#590817;#131c4a;#040c35;#05091f" dur="60s" repeatCount="indefinite" />
+               <animate attributeName="offset" values=".95;.80;.60;.60;.60;.60;.60;.60;.60;.80;.95" dur="60s" repeatCount="indefinite" /> 
+          </stop>
+        </linearGradient>
+
+<linearGradient id="grad2" x1="100%" y1="100%">
+          <stop offset="0%" stop-color="#383d06">
+            <animate attributeName="stop-color" values="#383d06;#3d4209;#798224;#8f9937;#b9c170;#b9c170;#a0a857;#a0a857;#798224;#3f440b;#3d4209;#383d06" dur="60s" repeatCount="indefinite" />
+          </stop>
+          <stop offset="100%" stop-color="#101901">
+            <animate attributeName="stop-color" values="#101901;#3e4219;#3e4219;#61662f;#757c27;#949e2d;#878e33;#878e33;#757c27;#6b7038;#4d5123;#3e4219;#3e4219;#101901" dur="60s" repeatCount="indefinite" />     
+            <animate attributeName="offset" values=".95;.80;.60;.60;.60;.60;.60;.60;.60;.80;.95" dur="60s" repeatCount="indefinite" />    
+          </stop>
+        </linearGradient>
+
+<linearGradient id="grad3" x1="100%" y1="100%">
+          <stop offset="0%" stop-color="#627882" stop-opacity=".9">
+            <animate attributeName="stop-color" values="#243035;#243035;#6a4d6d;#ff4c61;#ffa3a7;#7793a8;#9aacb7;#c4bcbc;#d1cfcf;#d1cfcf;#ccc9c9;#efefef;#dbbaba;#ff9b77;#ff6868#e29566;#edc2d9;#efa0c5;#bec9d3;#6a4d6d;#243035" dur="60s" repeatCount="indefinite" />
+          </stop>
+          <stop offset="100%" stop-color="#16312f" stop-opacity=".9">
+            <animate attributeName="stop-color" values="#081b23;#081b23;#243142;#934e56;#ba8f91;#5f7687;#7590a0;#8d9fa8;#9ca7ad;#9ca7ad;#9ca7ad;#ce9f75;#ce9f75;#a36f5d;#c17aa1;#c46d96;#889cad;#243142;#081b2" dur="60s" repeatCount="indefinite" />
+            <animate attributeName="offset" values=".95;.80;.60;.60;.60;.60;.60;.60;.60;.80;.95 dur="60s" repeatCount="indefinite" />    
+          </stop>
+        </linearGradient>
+  	</defs>
+
+
+  	<rect x="0" y="0" width="1000" height="600" fill = "url(#grad1)"/>
+	
+	<rect x="0" y="500" width="1000" height="400" fill = "url(#grad2)"/>
+	
+    	<path id="path1" d="M-450 200, L 1100, 200 1100, 200"
+fill="none" stroke="none"/>
+	
+	<path id="path2" d="M-250 50, L 1200, 50 1200, 50"
+fill="none" stroke="none"/>
+
+	<path id="path3" d="M-750 50, L 1200, 50 1200, 50"
+fill="none" stroke="none"/>
+
+    	<path stroke="none" fill="url(#grad3)" d="m299.160224,117.273439c-19.758319,0 -36.717708,5.998655 -45.019035,14.658563c-3.315506,-1.083638 -6.972503,-1.739779 -10.875382,-1.739779c-11.802433,0 -21.623737,5.558455 -24.659295,13.103872c-5.181312,-1.198952 -11.205742,-1.924862 -17.640883,-1.924862c-19.305436,0 -34.96562,6.183787 -34.96562,13.807186c0,6.881412 12.843429,12.538566 29.527933,13.585082c-0.74778,0.742769 -1.327814,1.478317 -1.327814,2.258013c0,7.298995 34.157585,13.251927 76.254143,13.251927c42.096552,0 76.254185,-5.952936 76.254143,-13.251927c0,-0.491102 -0.520664,-0.929371 -0.821973,-1.406632c1.843837,0.268443 3.669496,0.555251 5.690611,0.555251c11.261467,0.00002 20.422956,-4.479681 20.422956,-9.994478c0,-5.514801 -9.161489,-9.994474 -20.422956,-9.994474c-1.380066,0 -2.553553,0.279073 -3.85697,0.407184c1.13971,-2.205094 1.896863,-4.455101 1.896863,-6.848068c0,-14.597978 -22.571111,-26.466849 -50.456709,-26.466849l-0.000014,-0.000008z" fill-opacity="null" stroke-opacity="null">
+   	<animateMotion dur="60s" repeatCount="indefinite">
+      	   <mpath xlink:href="#path1"/>
+   	</animateMotion>
+	</path>
+
+    	<path stroke="none" fill="url(#grad3)" d="m172.044208,278.273438c-10.838302,0 -20.141268,3.491754 -24.694909,8.532595c-1.8187,-0.630774 -3.824723,-1.012707 -5.965622,-1.012707c-6.47415,0 -11.861565,3.235518 -13.526701,7.627626c-2.842176,-0.697897 -6.14684,-1.120442 -9.676795,-1.120442c-10.589875,0 -19.180171,3.599518 -19.180171,8.037018c0,4.005597 7.045182,7.298568 16.197362,7.907733c-0.41019,0.432358 -0.728364,0.860513 -0.728364,1.314366c0,4.248668 18.736928,7.713807 41.828731,7.713807c23.091799,0 41.828754,-3.465141 41.828731,-7.713807c0,-0.285866 -0.285607,-0.540977 -0.450888,-0.818786c1.011425,0.156258 2.012879,0.323206 3.121549,0.323206c6.177407,0.000012 11.202884,-2.607575 11.202884,-5.817681c0,-3.210108 -5.025477,-5.817678 -11.202884,-5.817678c-0.757026,0 -1.400735,0.162446 -2.115717,0.237018c0.625181,-1.283562 1.040513,-2.593267 1.040513,-3.986188c0,-8.49733 -12.381241,-15.406075 -27.67771,-15.406075l-0.000008,-0.000005z" fill-opacity="null">
+	<animateMotion dur="60s" repeatCount="indefinite" >
+      	   <mpath xlink:href="#path2"/>
+   	</animateMotion>
+	</path>
+
+	<path stroke="none" fill="url(#grad3)" d="m283.014277,99.821362c-19.182836,0 -35.648263,4.566141 -43.707804,11.158011c-3.218938,-0.824858 -6.769421,-1.324309 -10.558624,-1.324309c-11.458673,0 -20.993921,4.231063 -23.941064,9.97459c-5.0304,-0.912635 -10.879362,-1.465194 -17.127072,-1.465194c-18.743143,0 -33.947206,4.707062 -33.947206,10.509948c0,5.23809 12.469349,9.544282 28.667898,10.340884c-0.726,0.565391 -1.28914,1.125286 -1.28914,1.718786c0,5.555952 33.162706,10.087288 74.033154,10.087288c40.870442,0 74.033195,-4.53134 74.033154,-10.087288c0,-0.373824 -0.505499,-0.707432 -0.798032,-1.07072c1.790133,0.204337 3.562618,0.422654 5.524866,0.422654c10.933464,0.000015 19.828114,-3.409907 19.828114,-7.607738c0,-4.197834 -8.89465,-7.607735 -19.828114,-7.607735c-1.33987,0 -2.479177,0.212429 -3.744631,0.309946c1.106515,-1.678504 1.841615,-3.391196 1.841615,-5.212709c0,-11.111894 -21.913702,-20.146409 -48.987099,-20.146409l-0.000013,-0.000006z">
+	<animateMotion dur="60s" repeatCount="indefinite" >
+      	   <mpath xlink:href="#path3"/>
+   	</animateMotion>
+	</path>
+
+	<path stroke="none" fill="url(#grad3)" d="m406.781593,80.001369c-25.129514,0 -46.699223,7.520701 -57.257222,18.377898c-4.216809,-1.35859 -8.867941,-2.181215 -13.831797,-2.181215c-15.010861,0 -27.502036,6.968809 -31.362793,16.428734c-6.589824,-1.503163 -14.251964,-2.41326 -22.436464,-2.41326c-24.553516,0 -44.470839,7.752807 -44.470839,17.3105c0,8.627441 16.334847,15.719992 37.554945,17.032041c-0.951061,0.931232 -1.688773,1.853412 -1.688773,2.830941c0,9.150978 43.443143,16.614355 96.983429,16.614355c53.540277,0 96.983482,-7.463382 96.983429,-16.614355c0,-0.615711 -0.662204,-1.165181 -1.045422,-1.763538c2.345074,0.336556 4.667029,0.696136 7.237574,0.696136c14.322837,0.000025 25.974828,-5.616316 25.974828,-12.53039c0,-6.914079 -11.651992,-12.530385 -25.974828,-12.530385c-1.75523,0 -3.247722,0.349883 -4.905467,0.510499c1.449535,-2.764595 2.412516,-5.585499 2.412516,-8.585637c0,-18.301941 -28.706948,-33.182316 -64.173098,-33.182316l-0.000018,-0.00001z">
+	<animateMotion dur="60s" repeatCount="indefinite" >
+      	   <mpath xlink:href="#path3"/>
+   	</animateMotion>
+	</path>
+	<g  transform="translate(790,425)">
+	<polygon points="5,50 40,5 80,50"style="fill:#163317;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#163317;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(825,430)">
+	<polygon points="5,50 40,5 80,50"style="fill:#0d230e;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#0d230e;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(850,430)">
+	<polygon points="5,50 40,5 80,50"style="fill:#0d230e;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#0d230e;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(880,430)">
+	<polygon points="5,50 40,5 80,50"style="fill:#122912;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#122912;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(917,443)">
+	<polygon points="5,50 40,5 80,50"style="fill:#163317;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#163317;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(953,447)">
+	<polygon points="5,50 40,5 80,50"style="fill:#1c381d;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#1c381d;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(720,453)">
+	<polygon points="5,50 40,5 80,50"style="fill:#1c381d;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#1c381d;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(830,470)">
+	<polygon points="5,50 40,5 80,50"style="fill:#1c381d;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#1c381d;stroke:none;stroke-width:1" />	
+	</g>
+	<g  transform="translate(880,490)">
+	<polygon points="5,50 40,5 80,50"style="fill:#325233;stroke:none;stroke-width:1"/>
+	<polygon points="5,80 40,25 80,80"style="fill:#325233;stroke:none;stroke-width:1" />	
+	</g>
+</svg>
+</body>
+</html>
